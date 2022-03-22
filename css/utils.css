@@ -7,9 +7,32 @@
   text-align: center;
 }
 
+div.col-short img{
+  padding-left: 15px ;
+  padding-top: 10px;
+  display: inline-block;
+  width: 40px;
+  line-height: 100%;
+  opacity: 0.9;
+}
 
+div.col-short span,
+div.col-play span,
+div.col-list a,
+div.box-inst span,
+div.brani-menu a{
+  color: rgb(95, 95, 95);
+  font-weight: bold;
+  font-size: 0.8rem;
+}
 
-
+div.col-short span:hover,
+div.col-play span:hover,
+div.col-list a:hover,
+div.box-inst span:hover{
+  cursor: pointer;
+  color: white;
+}
 
 
 

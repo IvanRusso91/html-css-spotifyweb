@@ -9,8 +9,20 @@ body{
   font-family: 'Montserrat', sans-serif; 
 }
 
-
+header{
+  align-items: center;
+  justify-content: flex-end;
+  z-index: 998;
+  right: 0;
+  top: 0;
+  position: fixed;
+  background-color: rgba(8, 11, 18, 0.8);
+}
 
 ul{
   list-style: none;
+}
+
+a{
+  text-decoration: none;
 }
