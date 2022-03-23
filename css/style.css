@@ -139,13 +139,10 @@ section.player{
 
 div.controller{
   width:  40%;
-  background-color: aquamarine;
-  height: 100px;
 }
 
 div.audio{
   width: 250px;
-  background-color: brown;
   height: 100px;
 }
 /* sinstra */
@@ -185,25 +182,103 @@ div.foot-icon i{
 /* Centro */
 
 div.controller{
-  text-align: center;
   flex-direction: column;
 }
 
-div.foot-higt{
-  padding-top: 15px;
-  height: 100%;
-  width: 100%;
-  background-color: aqua;
+div.controller span{
+  color: white;
+  font-size: 0.7rem;
+  font-weight: bold; 
 }
 
 div.foot-low{
-  padding-top: 15px;
   width: 100%;
+}
+
+div.foot-higt ul{
+  justify-content: center;
+}
+
+div.foot-higt li{
+  margin: 15px;
+}
+
+div.foot-higt a{
+  color: white;
+}
+
+li.indietro-btn i{
+  transform: rotate(180deg);
+}
+
+li.start-btn i{
+  font-size: 25px;
+}
+
+div.foot-low{
+  justify-content: space-between;
+  text-align: center;
+}
+
+div.foot-minute{
+  width: 10%;
+}
+
+div.foot-bar{
+  border-radius: 5px;
+  margin-top: 5px;
+  height: 8px;
+  width: 80%;
+  background-color: rgb(90, 90, 90) ;
+}
+
+div.second-foot-bar{
   height: 100%;
-  background-color: green;
+  width: 20%;
+  border-radius: 5px;
+  background-color: rgb(193, 193, 193);
 }
 
 /* /Centro */
+
+/* Destra */
+
+div.foot-right-icon,
+div.foot-right-bar{
+  align-items: center;
+  width: 50%;
+}
+
+div.foot-right-icon{
+  justify-content: center; 
+}
+
+div.foot-right-icon li{
+  margin: 10px;
+}
+
+div.foot-right-icon a {
+  color: white;
+  font-size: 0.8rem;
+}
+
+div.right-bar{
+  width: 90%;
+  margin: auto;
+  height: 3px;
+  border-radius: 3px;
+  background-color: rgb(90, 90, 90)
+}
+
+div.second-right-bar{
+  width: 20%;
+  height: 100%;
+  border-radius: 3px ;
+  background-color:rgb(193, 193, 193);
+}
+
+
+/* /Destra */
 
 /* /FOOTER */
 
