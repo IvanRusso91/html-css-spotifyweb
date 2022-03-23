@@ -10,6 +10,7 @@ body{
 }
 
 header{
+  width: 85%;
   align-items: center;
   justify-content: flex-end;
   z-index: 998;
@@ -18,6 +19,11 @@ header{
   position: fixed;
   background-color: rgba(8, 11, 18, 0.8);
 }
+
+footer{
+  background-color: rgb(40, 40, 40);
+}
+
 
 ul{
   list-style: none;

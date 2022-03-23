@@ -20,7 +20,8 @@ div.col-short span,
 div.col-play span,
 div.col-list a,
 div.box-inst span,
-div.brani-menu a{
+div.brani-menu a,
+div.foot-title span{
   color: rgb(95, 95, 95);
   font-weight: bold;
   font-size: 0.8rem;
@@ -50,14 +51,8 @@ div.box-inst span:hover{
 
 
 
-
-
-
-
-
-
-
 /* DEBUG */
+
 .debug{
   width: 100%;
   background-color: rgba(0, 4, 255, 1);
@@ -69,45 +64,8 @@ div.box-inst span:hover{
   border: 1px solid black;
 }
 
-.debug3{
-  background-color: rgba(0, 255, 200, 0.8);
-  border: 1px solid black;
-}
-
 .h100{
   min-height: 100px;
-}
-
-.h200{
-  min-height: 200px;
-}
-
-.h250{
-  min-height: 250px;
-}
-
-.h300{
-  min-height: 300px;
-}
-
-.h400{
-  min-height: 400px;
-}
-
-.h500{
-  min-height: 500px;
-}
-
-.h600{
-  min-height: 600px;
-}
-.h800{
-  min-height: 800px;
-}
-
-
-.w5{
-  width: 5%;
 }
 
 .w20{
@@ -122,26 +80,6 @@ div.box-inst span:hover{
   width: 40%;
 }
 
-.w50{
-  width: 50%;
-}
-
-.w55{
-  width: 55%;
-}
-
-.w60{
-  width: 60%;
-}
-
 .w80{
   width: 80%;
-}
-
-.w90{
-  width: 90%;
-}
-
-.w95{
-  width: 95%;
 }
