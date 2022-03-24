@@ -127,12 +127,16 @@ div.brani-menu li:hover{
 /* /menu */
 /* Recently */
 
-div.recently, div.john{
+div.recently,
+div.john,
+div.artist{
   margin-top: 30px;
   margin-left: 15px;
 }
 
-div.recently h2, div.john h2{
+div.recently h2,
+div.john h2,
+div.artist h2{
   color: white;
 }
 
@@ -150,6 +154,7 @@ div.box-cover{
 
 div.box-cover img{
   width: 100%;
+  
 }
 
 div.card{
@@ -169,6 +174,7 @@ div.hover-box{
 div.card:hover .hover-box{
   cursor: pointer;
   display: flex;
+  
 }
 
 div.hover-box i{
@@ -188,19 +194,20 @@ div.titoli-brani p{
 /* /Recently */
 /* Per John*/
 
-div.john p{
+
+div.john p, div.artist p{
   margin-top: 10px;
   color: rgb(95, 95, 95);
   font-weight: bold;
   font-size: 0.6rem;
 }
 
-
-
 /* /Per John */
 
-
-
+div.circol img,
+div.hover-box2{
+  border-radius: 50%;
+}
 /* /Brani */
 /* /MAIN */
 
@@ -210,7 +217,6 @@ section.player{
   justify-content: space-between;
   align-items: center;
 }
-
 
 div.controller{
   width:  40%;
