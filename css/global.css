@@ -10,7 +10,7 @@ body{
 }
 
 header{
-  width: 85%;
+  width:calc(100% - 235px);
   align-items: center;
   justify-content: flex-end;
   z-index: 998;

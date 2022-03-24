@@ -19,7 +19,7 @@
 
 
 div.col-left{
-  width: 15%;
+  width: 235px;
   height: calc(100vh - 100px);
   flex-direction: column;
   background-color: black;
@@ -102,7 +102,7 @@ div.box-jo img{
 /* menu */
 
 div.box-brani{
-  width: 85%;
+  width:calc(100% - 235px);
   height: calc(100vh - 100px);
   background-color: rgb(20, 25, 34);
   flex-direction: column;
@@ -122,16 +122,17 @@ div.brani-menu li{
 div.brani-menu li:hover{
   margin-bottom: 5px;
   border-bottom: 2px solid rgb(173, 255, 47);
+  
 }
 /* /menu */
 /* Recently */
 
-div.recently{
+div.recently, div.john{
   margin-top: 30px;
   margin-left: 15px;
 }
 
-div.recently h2{
+div.recently h2, div.john h2{
   color: white;
 }
 
@@ -140,20 +141,63 @@ div.box-musica{
 }
 
 div.box-cover{
-  position: relative;
   margin-top: 20px;
-  width: calc(100% / 6 - 35px ); 
+  width: calc(100% / 6 - 35px );
   margin: 15px;
+  /* position: relative; */
 
 }
 
 div.box-cover img{
-  
   width: 100%;
 }
 
-/* /Recently */
+div.card{
+  position: relative;
+}
+div.hover-box{
+  top: 0;
+  position: absolute;
+  background-color: rgba(0,0,0,0.6);
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+  display: none;
+}
 
+div.card:hover .hover-box{
+  cursor: pointer;
+  display: flex;
+}
+
+div.hover-box i{
+  font-size: 60px;
+  color: white;
+}
+
+div.titoli-brani{
+  margin-top: 10px;
+  justify-content: center;
+  color: white;
+}
+
+div.titoli-brani p{
+  margin-top: 10px;
+}
+/* /Recently */
+/* Per John*/
+
+div.john p{
+  margin-top: 10px;
+  color: rgb(95, 95, 95);
+  font-weight: bold;
+  font-size: 0.6rem;
+}
+
+
+
+/* /Per John */
 
 
 

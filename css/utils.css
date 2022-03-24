@@ -21,7 +21,8 @@ div.col-play span,
 div.col-list a,
 div.box-inst span,
 div.brani-menu a,
-div.foot-title span{
+div.foot-title span,
+div.titoli-brani p{
   color: rgb(95, 95, 95);
   font-weight: bold;
   font-size: 0.8rem;
